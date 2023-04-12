@@ -25,8 +25,8 @@ Elevation en mètres.
 ...
 </reponse>
 ```
-Le serveur est conçu pour fonctionner avec l'application [OruxMap](https://oruxmaps.com/cs/en/).
-## Correction d'altitude dans OruxMap
+Le serveur est conçu pour fonctionner avec l'application [OruxMaps](https://oruxmaps.com/cs/en/).
+## Correction d'altitude dans OruxMaps
 Dans `Service d'altitude en ligne`:
 > Coordonnées pour requêtes : autant que possible </br>
 > Motif Url : `{Url du serv}/alti/coords=${coords}`</br>
