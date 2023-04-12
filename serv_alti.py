@@ -46,7 +46,7 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
         if self.path.startswith(prefix_alti):
             xml = '<reponse>'
             list_coords = [tuple(map(float, elem.split(','))) for elem in
-                           self.path[len(prefix_alti):].split('coords=')[1].split(';')]
+                           self.path[len(prefix_alti):].split('coords=')[1].split(config['Sep'])]
 
             for lat, lon in tqdm(list_coords):
                 elevation = correction.get_alti(lat, lon)
